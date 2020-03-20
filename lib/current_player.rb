@@ -16,7 +16,7 @@ def current_player(board)
 
 # Player O
   if turn_count(board) == 4 % 2
-    puts "X"
+    return "X"
   else turn_count(board) == 15 % 2
     puts "O"
   end
