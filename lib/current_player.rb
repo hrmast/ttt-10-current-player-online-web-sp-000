@@ -12,9 +12,12 @@ end
 
 def current_player(board)
   #should use turn_count to determine X  or Os turn
+# Player X
+
+# Player O
   if turn_count(board) == 4 % 2
-    puts "#{value}"
+    puts "X"
   else turn_count(board) == 15 % 2
-    puts "#{value}"
+    puts "O"
   end
 end
